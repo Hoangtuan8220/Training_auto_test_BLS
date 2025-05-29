@@ -33,6 +33,6 @@ public class ULPModel {
             r.append(" ");
         }
 
-        return r.toString();
+        return r.toString().trim();
     }
 }
