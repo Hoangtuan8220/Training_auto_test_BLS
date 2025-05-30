@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.Training.tests.TrimTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-05-30T06:44:08" hostname="DESKTOP-3K6BQ70" time="0.003">
+  <properties/>
+  <testcase name="testEmpty" classname="com.example.Training.tests.TrimTest" time="0.001"/>
+  <testcase name="testSpace" classname="com.example.Training.tests.TrimTest" time="0.0"/>
+  <testcase name="testMethod0" classname="com.example.Training.tests.TrimTest" time="0.0"/>
+  <testcase name="testMethod1" classname="com.example.Training.tests.TrimTest" time="0.001"/>
+  <testcase name="testMethod2" classname="com.example.Training.tests.TrimTest" time="0.0"/>
+  <testcase name="testMethod3" classname="com.example.Training.tests.TrimTest" time="0.001"/>
+  <testcase name="testMethod4" classname="com.example.Training.tests.TrimTest" time="0.0"/>
+  <testcase name="testTrailingSpace" classname="com.example.Training.tests.TrimTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.Training.tests.SplitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-05-30T06:26:54" hostname="DESKTOP-3K6BQ70" time="0.002">
+<testsuite name="com.example.Training.tests.SplitTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-05-30T06:44:08" hostname="DESKTOP-3K6BQ70" time="0.002">
   <properties/>
   <testcase name="testStringInputIsOneCharacter" classname="com.example.Training.tests.SplitTest" time="0.001"/>
   <testcase name="testSegmentZero" classname="com.example.Training.tests.SplitTest" time="0.0"/>
   <testcase name="testDelimeterIsSpace" classname="com.example.Training.tests.SplitTest" time="0.0"/>
   <testcase name="testStringInputIsDatetime" classname="com.example.Training.tests.SplitTest" time="0.0"/>
   <testcase name="testInvalidSegmentNegative" classname="com.example.Training.tests.SplitTest" time="0.0"/>
-  <testcase name="testValidSegment" classname="com.example.Training.tests.SplitTest" time="0.001"/>
+  <testcase name="testValidSegment" classname="com.example.Training.tests.SplitTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
