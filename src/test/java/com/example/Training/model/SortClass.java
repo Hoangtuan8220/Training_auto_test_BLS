@@ -15,7 +15,12 @@ public class SortClass {
     }
 
     public int[][] sort_func(int[][] arr) {
-        int[][] newArr = arr;
+        int[][] newArr = new int[arr.length][arr[0].length];
+        for (int i = 0; i < arr.length ; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                newArr[i][j] = arr[i][j];
+            }
+        }
         Arrays.sort(newArr, (a, b) -> {
             for (int i = 0; i < a.length; i++) {
                 int cmp = Integer.compare(a[i], b[i]);
