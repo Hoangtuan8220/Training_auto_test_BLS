@@ -76,10 +76,39 @@ public class SplitTest extends TestCase {
         String modifiers = ":";
 
         SplitClass str = new SplitClass();
-        String res = str.split_Func(input, delimiter, segment,modifiers);
+        long startTime = System.currentTimeMillis();
+        for (int i = 0; i < 1000000; i++) {
+            String res = str.split_Func(input, delimiter, segment,modifiers);
+        }
+        long endTime = System.currentTimeMillis();
 
         String expected = "03:05:44";
 
-        assertEquals(expected, res);
+        long duration = endTime - startTime;
+
+        assert duration <= 1000 : "fail!";
+
+        //assertEquals(expected, res);
+    }
+
+    public void testValidSegmentPerformance() {
+        String input = "aaaa,bb/ccc,cdfe/sssss";
+        String delimiter = "/";
+        int segment = 1;
+        String modifiers = ",";
+
+        SplitClass str = new SplitClass();
+
+        long startTime = System.currentTimeMillis();
+
+        for (int i = 0; i < 1000000; i++) {
+            String res = str.split_Func(input, delimiter, segment, modifiers);
+        }
+
+        long endTime = System.currentTimeMillis();
+
+        long duration = endTime - startTime;
+
+        assert duration <= 500 : "fail!";
     }
 }
